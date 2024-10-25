@@ -1,7 +1,19 @@
 // function Greet() {
-//   return <h1>Greet</h1>;
+//   return (
+//     <div>
+//       <h1>Good Morning!!</h1>
+//     </div>
+//   );
 // }
 
+// OR
+
 const Greet = () => {
-  return <h1>Greet</h1>;
-};
+  return (
+    <div>
+      <h1>Good Morning!!</h1>
+    </div>
+  );
+}
+
+export default Greet;

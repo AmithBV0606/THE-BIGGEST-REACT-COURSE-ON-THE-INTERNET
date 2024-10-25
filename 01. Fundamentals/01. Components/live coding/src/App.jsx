@@ -1,13 +1,11 @@
-// function App() {
-//   return <div>Component 🤝</div>;
-// }
+import Greet from "../../exercise/solution/Greet";
 
-// export default App;
-// --------------------------
-
-// rafce
 const App = () => {
-  return <div>Component 🤝</div>;
+  return (
+    <div>
+      <Greet />
+    </div>
+  );
 };
 
 export default App;
