@@ -3,10 +3,10 @@ import ProductInfo from "./components/ProductInfo";
 
 function App() {
   return (
-    <>
+    <div>
       <Greeting />
       <ProductInfo />
-    </>
+    </div>
   );
 }
 
