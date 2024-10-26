@@ -3,10 +3,10 @@ import Product from "./components/Product";
 
 function App() {
   return (
-    <>
-      <Person name="HuXn" age={22} />
+    <div>
+      <Person name="Amith" age={24} />
       <Product name="Iphone" price={30000} />
-    </>
+    </div>
   );
 }
 
