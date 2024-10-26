@@ -4,11 +4,11 @@ import Weather from "./components/Weather";
 
 function App() {
   return (
-    <>
-      <Weather />
+    <div>
+      <Weather temperature={10}/>
       <UserStatus loggedIn={true} isAdmin={false} />
       <Greeting timeOfDay="morning" />
-    </>
+    </div>
   );
 }
 

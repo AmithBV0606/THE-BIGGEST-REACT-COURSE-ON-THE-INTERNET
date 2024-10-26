@@ -1,13 +1,11 @@
-const UserStatus = (props) => {
-  // Use the && operator to display a message if the user is logged in:
-  // If loggedIn is true, display: "Welcome back!"
-  // If loggedIn is false, display nothing.
+import React from 'react'
 
-  if (props.loggedIn && props.isAdmin) {
-    return <div>Welcome admin</div>;
+const UserStatus = ({ loggedIn, isAdmin }) => {
+  if (loggedIn && isAdmin) {
+    return <h2>Welcom Admin!</h2>
   } else {
-    return <div>Welcome user</div>;
+    return <h2>Welcom User!</h2>
   }
-};
+}
 
 export default UserStatus;
